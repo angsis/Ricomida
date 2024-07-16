@@ -1,0 +1,19 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    margin-top: 120px;
+}
+
+nav {
+    background-color: #373A3C;
+}
+
+.logo-texto {
+    font-family: 'Lobster',sans-serif;
+    font-size:37pt;
+}
+
+.size-cabin {
+    font-size: 16pt;
+}
+
+
