@@ -2,6 +2,9 @@ body {
     font-family: 'Cabin', sans-serif;
     margin-top: 120px;
 }
+.container {
+    width: 80% !important;
+}
 
 nav {
     background-color: #373A3C;
@@ -16,4 +19,17 @@ nav {
     font-size: 16pt;
 }
 
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
 
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    top: 60px;
+    width: 18px;
+    height: 18px;
+    border: none;
+    border-radius: 24px;
+    background-color:#373A3C;
+  }
