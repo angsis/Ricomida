@@ -6,5 +6,15 @@ $(document).ready(function(){
     $("#enviarCorreo").click(function(){
       alert("El correo fue enviado correctamente...")
     });
+
+    $(".cambia-color").on("dblclick", function(){
+      $(this).css({
+        "color":"red",
+      });
+    });
+
+    $(".card-title").click(function(){
+      $(".card img, .card-text").toggle();
+    });
 });
       
